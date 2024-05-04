@@ -1,0 +1,18 @@
+{
+  "name": "username-indexer",
+  "version": "1.0.0",
+  "description": "Gets a shit ton of scratch usernames and puts them in a SQLite database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "node index.js"
+  },
+  "type": "module",
+  "author": "dumorando",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "easy-json-database": "^1.5.1",
+    "node-fetch": "^3.3.2",
+    "shittylog": "^0.0.2-beta"
+  }
+}
