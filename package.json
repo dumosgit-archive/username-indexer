@@ -1,10 +1,9 @@
 {
   "name": "username-indexer",
   "version": "1.0.0",
-  "description": "Gets a shit ton of scratch usernames and puts them in a SQLite database",
+  "description": "Gets a shit ton of scratch usernames and puts them in a JSON database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "index": "node index.js"
   },
   "type": "module",
